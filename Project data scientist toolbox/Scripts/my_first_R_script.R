@@ -1,0 +1,11 @@
+example <- matrix(c(1,2,3,4,5,6,7,8),nrow=4,ncol=2)
+install.packages("ggplot2")
+library(ggplot2)
+old.packages()
+update.packages()
+detach("package:ggplot2", unload=TRUE)
+remove.packages("ggplot2")
+version
+sessionInfo()
+help(package = "ggplot2")
+browseVignettes("ggplot2")
